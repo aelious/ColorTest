@@ -1,8 +1,8 @@
-package main
+package ColorTest
 
 import "github.com/aelious/imgMod"
 
-func Main() {
+func RunTest() {
 	imgMod.GetImage()
 	imgMod.GetColors()
 	imgMod.ConvertToGrayScale()
