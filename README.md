@@ -12,6 +12,8 @@ Before attempting to use this program, ensure you have go installed and that you
 
 1. Run go get -u github.com/aelious/ColorTest
 
+1. Run go mod tidy and wait for dependencies to install or update. 
+
 1. Include ColorTest.RunTest() to your main function
 
 1. Use go run ./mainFile.go
